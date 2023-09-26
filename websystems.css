@@ -22,7 +22,7 @@ p {
     padding-left: 1.5%;
     position: absolute;
     letter-spacing: -1px;
-    top: -50%;
+    top: .75%;
 }
 
 #top-navbar {
@@ -47,7 +47,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
@@ -64,11 +63,7 @@ li a {
     text-align: center;
     padding: 8px 35px;
     text-decoration: none;
-    -webkit-transition: color .5s;
-    -moz-transition:    color .5s;
-    -ms-transition:     color .5s;
-    -o-transition:      color .5s;
-    transition:         color .5s;
+    transition: color .5s;
 }
   
 li a:hover {
@@ -218,8 +213,6 @@ li a:hover {
     letter-spacing: 1px;
     cursor: pointer;
     box-shadow: inset 0 0 0 0 rgb(254,61,86);
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
     margin: 12.5px;
     font-weight: bold;
@@ -304,7 +297,6 @@ li a:hover {
     left: 72.5%; 
     top: 70%; 
     filter: invert(100%); 
-    -webkit-filter: invert(100%);
 }
 
 .color-red-text {
