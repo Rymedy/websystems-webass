@@ -317,3 +317,14 @@ li a:hover {
     top: 15%; 
     pointer-events: none;
 }
+
+table {
+    color: white;
+    font-size: 40px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
