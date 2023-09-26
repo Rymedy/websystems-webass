@@ -1,0 +1,319 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    background-color: rgb(24,49,90);
+    color: white;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.name-header {
+    font-size: 39px;
+    color: white;
+    font-weight: bold;
+    padding-left: 1.5%;
+    position: absolute;
+    letter-spacing: -1px;
+    top: -50%;
+}
+
+#top-navbar {
+    width: 72.5%;
+    margin: auto;
+    padding-top: 2%;
+}
+
+#github-btn {
+    margin-left: 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(254,61,86);
+}
+
+#github-btn:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+ul {
+    z-index: 500;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    font-size: 25px;
+    font-family: Verdana, Helvetica, sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 35px;
+    text-decoration: none;
+    -webkit-transition: color .5s;
+    -moz-transition:    color .5s;
+    -ms-transition:     color .5s;
+    -o-transition:      color .5s;
+    transition:         color .5s;
+}
+  
+li a:hover {
+    color: rgb(254,61,86);
+}
+
+.page-content {
+    width: 75%;
+    text-align: center;
+}
+
+.page-section {
+    width: 60%;
+    height:50%;
+    position: absolute;
+}
+
+.page-section-inverted {
+    width: 60%;
+    padding-left: 30%;
+    padding-right: 10%;
+    height:50%;
+    position: absolute;
+
+}
+
+.about-me-text {
+    position: absolute;
+    color: white;
+    width: 60%;
+}
+
+#start-screen-container {
+    position: absolute;
+    width: 75%;
+    height: 60%;
+    top: 10%;
+    margin:0 auto;
+    padding: 10% 12.5%;
+}
+
+#intro-info {
+    font-size: 30px;
+    top: 31.5%;
+    left: 17%;
+    opacity: 0.85;
+}
+
+#sub-intro-info {
+    font-size: 60px;
+    top: 35%;
+    left: 20%
+}
+
+#sub-sub-intro-info {
+    font-size: 30px;
+    top: 43%;
+    left: 22.5%;
+    opacity: 0.9;
+}
+
+#about-me-pfp {
+    background-image: url(images/profilepicture.jpg);
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    float: right;
+    position: absolute;
+    top:25%;
+    right: 12.5%;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    background-size: 100%;
+    user-select: none;
+}
+
+#self-introduction {
+    top:100%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 30%;
+}
+
+#hobbies {
+    top:150%;
+    text-align: center;
+}
+
+#experience {
+    text-align: center;
+    top:50%;
+}
+
+.seperator {
+    height: 1%;
+    position: absolute;
+    background-color: rgb(254,61,86);
+}
+
+#seperator-one {
+    width: 60%;
+    top: 70%;
+    left: 0;
+}
+
+#seperator-two {
+    width: 60%;
+    top: 82.5%;
+    right: 0;
+}
+
+#japanese-text {
+    color: white;
+    text-shadow: 5px 5px 0 rgb(254,61,86);
+    font-size: 60px;
+    font-weight: bold;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-align: left;
+    line-height: 4rem;
+    position: absolute;
+    top: -7%;
+    left: 10%;
+    padding-bottom: 7%;
+}
+
+#personal-past {
+    top:15%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 30%;
+}
+
+#personal-projects {
+    top:65%;
+    text-align: center;
+}
+
+.button_slide {
+    color: #FFF;
+    border: 2px solid rgb(254,61,86);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgb(254,61,86);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    margin: 12.5px;
+    font-weight: bold;
+  }
+  
+  .slide_right:hover {
+    box-shadow: inset 400px 0 0 0 rgb(254,61,86);
+  }
+
+  #pastfuture-background-text {
+    color: white;
+    text-shadow: 5px 5px 0 rgb(254,61,86);
+    font-size: 170px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 4rem;
+    position: absolute;
+    top: -20%;
+    left: 60%;
+    padding-bottom: 7%;
+    opacity: .5;
+    z-index: -100;
+  }
+
+  #project-background-text {
+    color: white;
+    text-shadow: 5px 5px 0 rgb(254,61,86);
+    font-size: 150px;
+    font-weight: bold;
+    writing-mode: vertical-lr;
+    text-align: left;
+    line-height: 4rem;
+    position: absolute;
+    top: -20%;
+    left: 10%;
+    padding-bottom: 7%;
+    opacity: .5;
+    z-index: -100;
+  }
+
+#future-skills {
+    line-height: 8px;
+}
+
+#comments-title {
+    color: white;
+    text-shadow: 3px 3px 0 rgb(254,61,86);
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 4rem;
+    text-align: center;
+}
+
+#comments-section {
+    top:22.5%;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.comments-sub-title {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#other-ul:visited {
+    color: rgb(254,61,86);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#other-ul:active {
+    color: rgb(254,61,86);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#uts-logo {
+    position: absolute; 
+    left: 72.5%; 
+    top: 70%; 
+    filter: invert(100%); 
+    -webkit-filter: invert(100%);
+}
+
+.color-red-text {
+    color: rgb(254,61,86);
+}
+
+#programmer-image {
+    position: absolute; 
+    left: 55%; 
+    top: 15%; 
+    pointer-events: none;
+}
